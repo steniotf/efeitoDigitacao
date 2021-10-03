@@ -1,0 +1,24 @@
+body{
+  background: #FFF;
+
+}
+h1{
+  color: #000;
+  font-family: Tox Typewriter;
+  text-align: center;
+  font-size: 3rem;
+}
+h1:after{
+  content: '|';
+  animation: pisca;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes pisca{
+  0%,100%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+}
